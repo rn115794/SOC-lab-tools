@@ -75,13 +75,15 @@ Important notice:
 
 <br>
 
-(1) This tool modifies security-critical Windows Defender configuration by applying registry- and service-level enforcement intended for isolated SOC labs and controlled test environments only.
+(1) This tool modifies security-critical Windows Defender configuration by applying registry- and service-level enforcement intended exclusively for isolated SOC labs and controlled test environments.
 
 (2) Improper use in a production environment, enterprise network, or unmanaged system may significantly reduce system security, expose the host to malware, or violate organizational security policies.
 
-(3) Use of this tool requires full understanding of its impact and full responsibility for its operation.
+(3) Execution of this tool must be explicitly approved by the system owner or an authorized administrator. Use on systems without proper authorization or outside of controlled testing scenarios is strongly discouraged.
 
-(4) It must never be deployed on production systems, end-user workstations, or environments where security controls are required to remain active.
+(4) Operation of this tool requires full understanding of its impact and full responsibility for its use.
+
+(5) This tool must never be deployed on production systems, end-user workstations, or environments where security controls are required to remain active.
 
 <br>
 <br>
