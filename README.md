@@ -42,6 +42,19 @@ Summary:
 TLSKeyLogConfigurator.exe
 -----------------------------------------
 
+Important notice:
+
+<br>
+
+(1) This tool configures TLS key logging and Wireshark preferences, enabling decryption and inspection of encrypted web traffic for analysis purposes.
+(2) When misused, TLS key logging may allow sensitive or private communications to be decrypted and inspected, potentially violating privacy, confidentiality, or organizational security policies.
+(3) Execution of this tool must be explicitly approved by the system owner or an authorized administrator, and its use must comply with applicable laws, internal policies, and scope of authorization.
+(4) This tool is intended exclusively for SOC labs, controlled test environments, and authorized forensic or training scenarios.
+(5) Operation of this tool requires full understanding of its impact and full responsibility for its use, particularly when handling decrypted network traffic.
+
+<br>
+<br>
+
 Prerequisite:
 
 <br>
