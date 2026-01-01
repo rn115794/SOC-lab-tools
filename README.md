@@ -42,6 +42,15 @@ Summary:
 TLSKeyLogConfigurator.exe
 -----------------------------------------
 
+Prerequisite:
+
+<br>
+
+(1) Wireshark must be installed on the system for TLS traffic decryption to be usable; the tool configures TLS key logging and Wireshark preferences but does not install Wireshark itself.
+
+<br>
+<br>
+
 The application performs the following functions:
 
 <br>
